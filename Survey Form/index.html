@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">A survey form by freeCodeCamp</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name <input class="first-input" id="name" type="text" placeholder="Enter your name" required /></label>
+            <label id="email-label">Email <input class="first-input" id="email" type="email" placeholder="Enter your email" required /></label>
+            <label id="number-label">Age <input class="first-input" id="number" type="number" min="5" max="10" placeholder="Enter your age" /></label>
+        </fieldset>
+        <fieldset>
+            <label>Whats your role: <select id="dropdown">
+                    <option value="">Select Role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Serviceman</option>
+                </select></label>
+        </fieldset>
+        <fieldset>
+            <label>Select Your choice</label>
+            <label><input class="inline" type="radio" value="sure" name="choice" />Sure</label>
+            <label><input class="inline" type="radio" value="maybe" name="choice" />Maybe</label>
+        </fieldset>
+        <fieldset>
+            <label>What would you like to see improved?</label>
+            <label><input class="inline" type="checkbox" value="frontend" />Frontend</label>
+            <label><input class="inline" type="checkbox" value="backend" />Backend</label>
+        </fieldset>
+        <fieldset>
+            <label>Additional Comments<textarea rows="3" cols="30"></textarea></label>
+            <input type="submit" value="Submit" id="submit" />
+    </form>
+</body>
+
+</html>
