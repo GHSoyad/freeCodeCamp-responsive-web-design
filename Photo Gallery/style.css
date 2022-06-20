@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #FF8BC4AA;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background: #DC143CCC;
+  color: #FFF6F4FF;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+#gallery img {
+  width: 22%;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px 10px 0 10px;
+  border-radius: 10px;
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  #gallery img {
+    width: 30%;
+    height: 250px;
+    margin: 20px 10px 0 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  #gallery img {
+    width: 45%;
+    height: 250px;
+    margin: 20px 10px 0 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #gallery img {
+    width: 90%;
+    height: 200px;
+  }
+}
