@@ -168,9 +168,7 @@ hr {
     .image-wrapper {
         grid-template-columns: 1fr;
     }
-}
 
-@media only screen and (max-width: 720px) {
     .hero-title {
         font-size: 6.5rem;
     }
