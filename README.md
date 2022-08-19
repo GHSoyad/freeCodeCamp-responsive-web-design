@@ -1,2 +1,4 @@
-# HTML-CSS-Projects
-Small HTML CSS Practice Projects All in one place
+# freeCodeCamp Responsive Web Design Projects
+freeCodeCamp Responsive Web Design Projects All in one place
+
+Certificate Link: https://www.freecodecamp.org/certification/GHSoyad/responsive-web-design
